@@ -13,6 +13,7 @@ composer require gento-arg/module-oca
 Then you'll need to activate the module.
 
 ```
+bin/magento module:enable Gento_Core
 bin/magento module:enable Gento_Oca
 bin/magento setup:upgrade
 bin/magento cache:clean
